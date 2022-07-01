@@ -1,0 +1,26 @@
+.flex-container {
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-item {
+    flex: 0 1 20%;
+}
+
+.card {
+    width: 10vw;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.5rem;
+    text-align: center;
+}  
+
+img {
+    max-width: 70%;
+}
